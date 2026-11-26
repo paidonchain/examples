@@ -1,0 +1,12 @@
+name = "usdc-paywall"
+main = "src/worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+PAY_TO = "0xYourReceivingAddress"
+PRICE_USDC = "19"
+
+# Create with: npx wrangler kv namespace create SALES
+[[kv_namespaces]]
+binding = "SALES"
+id = "your-kv-namespace-id"

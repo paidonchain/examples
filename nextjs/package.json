@@ -1,0 +1,1 @@
+{"name":"nextjs-usdc-claim","private":true,"type":"module","scripts":{"test":"node --test test/*.test.js"},"dependencies":{"paidonchain":"^0.1.0"}}
